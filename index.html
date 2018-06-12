@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	 <!-- <script src="script.js"></script> -->
+	 <script>
+    function computerPlay() 
+ 	{
+    	var x = Math.floor((Math.random()*3)+1); 
+    	document.write(x+'<br>');
+
+	    if (x==1) 
+	    { 
+	      document.write('Rock'+'<br>'); 
+	      return 'Rock';
+	    }
+	    if (x==2) 
+	    { 
+	      document.write('Paper'+'<br>'); 
+	      return 'Paper';
+	    }
+	    if (x==3)
+	    { 
+	      document.write('Scissors'+'<br>');
+	      return 'Scissors'; 
+	    }
+	    else
+	    {
+	  	  document.write('Rock'+'<br>'); 
+	  	  return 'Rock';}
+ 	}
+	computerPlay();
+	</script>  
+</head>
+<body>
+</body>
+</html>
